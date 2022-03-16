@@ -32,6 +32,7 @@
                 <version>2.22.2</version>
             </plugin>
         </plugins>
+        <testSourceDirectory>test</testSourceDirectory>
     </build>
 
 </project>
