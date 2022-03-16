@@ -59,7 +59,7 @@ class PriorityQueueTest {
             PriorityQueue<Integer> test = new PriorityQueue<Integer>();
             test.add(null);
         });
-        assertEquals(e.getClass(), NullPointerException.class);
+        assertEquals(e.getClass(), IllegalArgumentException.class);
     }
 
 }
